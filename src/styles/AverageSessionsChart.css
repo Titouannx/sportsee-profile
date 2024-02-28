@@ -1,0 +1,23 @@
+.recharts-tooltip-cursor{
+    display: none;
+}
+
+.recharts-cartesian-axis-tick{
+    top: 100px;
+}
+
+@media screen and (max-width: 1920px),
+screen and (max-height: 780px) {
+    .textAverageSession{
+        font-size: 20px!important;
+        translate: 10% 5%;
+    }
+  }
+
+@media screen and (max-width: 1700px),
+screen and (max-height: 780px) {
+    .textAverageSession{
+        font-size: 15px!important;
+        translate: 20% 5%;
+    }
+  }

@@ -1,0 +1,31 @@
+
+.custom-tooltip {
+    background: #E60000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    margin: 0px auto;
+  }
+
+  .custom-tooltip p{
+    text-align: center;
+  }
+
+  .custom-tooltip p:first-child{
+    padding-bottom: 20px;
+  }
+
+  .recharts-legend-item-text{
+    color: #74798C!important;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1024px),
+  screen and (max-height: 780px) {
+    .recharts-legend-item-text{
+      padding: 0px;
+      font-size: 14px;
+    }
+  }

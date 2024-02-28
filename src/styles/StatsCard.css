@@ -1,0 +1,42 @@
+.stats-card {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #FBFBFB;
+  }
+  
+  .stats-card-image {
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 25px;
+  }
+  
+  .stats-card-content {
+    flex: 1;
+  }
+  
+  .stats-card-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282D30;
+  }
+  
+  .stats-card-text {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    color: #74798C;
+  }
+
+  @media screen and (max-width: 1700px),
+  screen and (max-height: 780px) {
+    .stats-card {
+      transform: scale(0.8);
+      margin-left: 0px;
+      padding: 0px 20px 0px 0px;
+    }
+  }
+  
+  

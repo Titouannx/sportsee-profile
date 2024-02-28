@@ -1,0 +1,13 @@
+@media screen and (max-width: 1700px), 
+screen and (max-height: 780px) {
+    tspan{
+        font-size: 15px!important;
+    }
+  }
+
+@media screen and (max-width: 1400px),
+screen and (max-height: 780px) {
+    tspan{
+        font-size: 10px!important;
+    }
+  }
